@@ -32,6 +32,27 @@ public class Main {
         bufferedReader.close();*/
 
 
+        //Java Loops II
+        Scanner in=new Scanner(System.in);
+        int t=in.nextInt();
+        int n;
+        int a;
+        double b;
+        for (int i=0; i < t; i++) {
+            a=in.nextInt();
+            b=in.nextInt();
+            n=in.nextInt();
+            double sum=a;
+            for (int j=0; j < n; j++) {
+                double temp=(Math.pow(2,j)*b);
+                sum+=temp;
+                System.out.print((int)sum+" ");
+            }
+            System.out.println();
+
+        }
+        in.close();
+
 
 
     }
