@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  {
 
         //Java Stdin and Stdout II
         /*Scanner scan=new Scanner(System.in);
@@ -33,7 +33,7 @@ public class Main {
 
 
         //Java Loops II
-        Scanner in=new Scanner(System.in);
+        /*Scanner in=new Scanner(System.in);
         int t=in.nextInt();
         int n;
         int a;
@@ -51,7 +51,18 @@ public class Main {
             System.out.println();
 
         }
-        in.close();
+        in.close();*/
+
+        //Java End-of-file
+        Scanner scanner=new Scanner(System.in);
+        int i=1;
+        while(scanner.hasNext()){
+            System.out.println(i+" "+scanner.nextLine());
+            i++;
+        }
+
+
+
 
 
 
